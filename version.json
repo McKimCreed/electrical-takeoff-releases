@@ -1,17 +1,12 @@
 {
-  "version": "1.0.2",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.2/McKimCreedTakeoff-Setup-1.0.2.exe",
+  "version": "1.0.3",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.3/McKimCreedTakeoff-Setup-1.0.3.exe",
   "published": "2026-06-19",
-  "notes": "New app icon and Settings improvements.",
+  "notes": "AI Legend mode temporarily removed while it is refined.",
   "highlights": {
-    "features": [
-      "Clear full-screen loading indicator while a selection / search is processing",
-      "Rearrange layers with up/down arrows",
-      "Refreshed app icon (clearer at desktop/taskbar sizes)",
-      "Settings now shows the app version",
-      "Settings: Help opens the user guide",
-      "Settings: Report an issue (opens a pre-filled email)"
-    ],
-    "fixes": []
+    "features": [],
+    "fixes": [
+      "AI Legend mode hidden for now"
+    ]
   }
 }
