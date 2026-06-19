@@ -1,20 +1,17 @@
 {
-  "version": "1.0.1",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.1/McKimCreedTakeoff-Setup-1.0.1.exe",
+  "version": "1.0.2",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.2/McKimCreedTakeoff-Setup-1.0.2.exe",
   "published": "2026-06-19",
-  "notes": "AI Legend, in-app updates, and several fixes.",
+  "notes": "New app icon and Settings improvements.",
   "highlights": {
     "features": [
-      "AI Legend: box a legend and the AI reads each symbol's name + description, then detects them all",
-      "Stop button to cancel an AI Find run",
-      "In-app updates: get notified and update with one click",
-      "App now has a proper icon"
+      "Clear full-screen loading indicator while a selection / search is processing",
+      "Rearrange layers with up/down arrows",
+      "Refreshed app icon (clearer at desktop/taskbar sizes)",
+      "Settings now shows the app version",
+      "Settings: Help opens the user guide",
+      "Settings: Report an issue (opens a pre-filled email)"
     ],
-    "fixes": [
-      "AI Find no longer errors when Engineer Monkey is unreachable (falls back gracefully)",
-      "Legend symbol thumbnails now line up with the correct name/description",
-      "Typing a space in a layer name works",
-      "Opening a project from the library now closes the menu automatically"
-    ]
+    "fixes": []
   }
 }
