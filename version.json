@@ -1,12 +1,12 @@
 {
-  "version": "1.0.4",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.4/McKimCreedTakeoff-Setup-1.0.4.exe",
+  "version": "1.0.5",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.5/McKimCreedTakeoff-Setup-1.0.5.exe",
   "published": "2026-06-20",
-  "notes": "Smoother updates: the app now closes itself when you install an update.",
+  "notes": "New McKim & Creed Takeoff app logo / icon.",
   "highlights": {
-    "features": [],
-    "fixes": [
-      "Clicking 'Update now' now closes the running app automatically so the installer can replace it"
-    ]
+    "features": [
+      "New app logo as the icon"
+    ],
+    "fixes": []
   }
 }
