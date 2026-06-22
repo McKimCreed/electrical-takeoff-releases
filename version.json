@@ -1,13 +1,12 @@
 {
-  "version": "1.0.6",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.6/McKimCreedTakeoff-Setup-1.0.6.exe",
-  "published": "2026-06-20",
-  "notes": "Fixes a Python DLL error that could appear after updating; faster startup.",
+  "version": "1.0.7",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.7/McKimCreedTakeoff-Setup-1.0.7.exe",
+  "published": "2026-06-22",
+  "notes": "Updated app icon.",
   "highlights": {
-    "features": [],
-    "fixes": [
-      "Fixed a 'Python DLL' load error after updating (folder-based install, no temp extraction)",
-      "Noticeably faster app startup"
-    ]
+    "features": [
+      "New app icon"
+    ],
+    "fixes": []
   }
 }
