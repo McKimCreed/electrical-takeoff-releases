@@ -1,13 +1,13 @@
 {
-  "version": "1.0.8",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.8/McKimCreedTakeoff-Setup-1.0.8.exe",
+  "version": "1.0.9",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.9/McKimCreedTakeoff-Setup-1.0.9.exe",
   "published": "2026-06-22",
-  "notes": "Undo/redo, and copy symbols between sheets (scale-aware).",
+  "notes": "The app now opens in its own window and closes itself when you install an update; copy a chosen symbol between sheets.",
   "highlights": {
-    "features": [
-      "Undo / redo with Ctrl+Z and Ctrl+Y (Ctrl+Shift+Z redoes)",
-      "Copy symbols from one sheet to others at the same position - scale-aware, for identical floor plans"
-    ],
-    "fixes": []
+    "features": [],
+    "fixes": [
+      "Installing an update now closes the running app automatically (opens in its own window)",
+      "Copy symbols between sheets can target a single symbol or all"
+    ]
   }
 }
