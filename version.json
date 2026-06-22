@@ -1,13 +1,13 @@
 {
-  "version": "1.0.10",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.10/McKimCreedTakeoff-Setup-1.0.10.exe",
+  "version": "1.0.11",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.11/McKimCreedTakeoff-Setup-1.0.11.exe",
   "published": "2026-06-22",
-  "notes": "Copy a selected set of symbols (Lasso) to other sheets.",
+  "notes": "Updates load the new screen automatically; tidier copy tool.",
   "highlights": {
-    "features": [
-      "Lasso/Ctrl+click a set of symbols on the drawing, then 'Copy selection to sheet(s)' places them on other sheets at the same position (scale-aware)",
-      "Whole-sheet copy no longer requires picking a layer"
-    ],
-    "fixes": []
+    "features": [],
+    "fixes": [
+      "After updating, the app no longer shows a cached old screen",
+      "'Copy a whole sheet's symbols' is now a compact, collapsible section"
+    ]
   }
 }
