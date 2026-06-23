@@ -1,17 +1,16 @@
 {
-  "version": "1.0.13",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.13/McKimCreedTakeoff-Setup-1.0.13.exe",
+  "version": "1.0.14",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.14/McKimCreedTakeoff-Setup-1.0.14.exe",
   "published": "2026-06-23",
-  "notes": "Interface redesign, per-page legend control in PDF export, and layer management upgrades.",
+  "notes": "Clearer annotated-PDF legend and permanent (flattened) symbols.",
   "highlights": {
     "features": [
-      "New top menu bar (File / Edit / Export / View / Help) with a standalone Quit button",
-      "Export dialog with a live PDF preview and per-page legend placement (any corner, vertical or horizontal)",
-      "Layers: multi-select, minimize/expand, and move up/down; the layer toolbar stays pinned while scrolling",
-      "Report an issue now opens a pre-filled GitHub ticket"
+      "Legend shows full layer names so they are no longer cut off",
+      "Horizontal legend counts now include EA, matching the vertical legend"
     ],
     "fixes": [
-      "Slimmer annotated-PDF legend box so it covers less of the drawing"
+      "Vertical legend no longer shows row numbers that could be mistaken for counts",
+      "Placed symbols are flattened onto the PDF so they cannot be accidentally moved or deleted"
     ]
   }
 }
