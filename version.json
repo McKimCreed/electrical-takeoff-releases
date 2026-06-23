@@ -1,13 +1,17 @@
 {
-  "version": "1.0.11",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.11/McKimCreedTakeoff-Setup-1.0.11.exe",
-  "published": "2026-06-22",
-  "notes": "Updates load the new screen automatically; tidier copy tool.",
+  "version": "1.0.13",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.13/McKimCreedTakeoff-Setup-1.0.13.exe",
+  "published": "2026-06-23",
+  "notes": "Interface redesign, per-page legend control in PDF export, and layer management upgrades.",
   "highlights": {
-    "features": [],
+    "features": [
+      "New top menu bar (File / Edit / Export / View / Help) with a standalone Quit button",
+      "Export dialog with a live PDF preview and per-page legend placement (any corner, vertical or horizontal)",
+      "Layers: multi-select, minimize/expand, and move up/down; the layer toolbar stays pinned while scrolling",
+      "Report an issue now opens a pre-filled GitHub ticket"
+    ],
     "fixes": [
-      "After updating, the app no longer shows a cached old screen",
-      "'Copy a whole sheet's symbols' is now a compact, collapsible section"
+      "Slimmer annotated-PDF legend box so it covers less of the drawing"
     ]
   }
 }
