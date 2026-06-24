@@ -1,16 +1,12 @@
 {
-  "version": "1.0.14",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.14/McKimCreedTakeoff-Setup-1.0.14.exe",
-  "published": "2026-06-23",
-  "notes": "Clearer annotated-PDF legend and permanent (flattened) symbols.",
+  "version": "1.0.15",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.15/McKimCreedTakeoff-Setup-1.0.15.exe",
+  "published": "2026-06-24",
+  "notes": "Fixes the native file dialog used to open PDFs and re-link moved takeoffs.",
   "highlights": {
-    "features": [
-      "Legend shows full layer names so they are no longer cut off",
-      "Horizontal legend counts now include EA, matching the vertical legend"
-    ],
+    "features": [],
     "fixes": [
-      "Vertical legend no longer shows row numbers that could be mistaken for counts",
-      "Placed symbols are flattened onto the PDF so they cannot be accidentally moved or deleted"
+      "Open PDF, re-link a moved takeoff, Save As, and the takeoffs-folder picker no longer fail with a file dialog error"
     ]
   }
 }
