@@ -1,13 +1,16 @@
 {
-  "version": "1.0.16",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.16/McKimCreedTakeoff-Setup-1.0.16.exe",
-  "published": "2026-06-28",
-  "notes": "Self-contained takeoff files and per-sheet quantity export.",
+  "version": "1.0.17",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.17/McKimCreedTakeoff-Setup-1.0.17.exe",
+  "published": "2026-06-29",
+  "notes": "Export improvements and UI polish",
   "highlights": {
     "features": [
-      "Takeoffs save as self-contained .mctakeoff files that bundle the PDF, so they survive moving, renaming, or sharing without re-linking the drawing",
-      "New per-sheet Excel/CSV export: counts broken out by sheet with a Total column. Name your sheets in the Tools tab to use as column headers"
+      "Floor-grouped BOM export — assign sheets to named floors with multipliers; assembly rows are multiplied, panels/units/fire pads in a separate non-multiplied section",
+      "Unified Excel / CSV export modal — pick format and grouping (whole document / per sheet / by floor) in one place; sheet names and floor multipliers editable right in the modal"
     ],
-    "fixes": []
+    "fixes": [
+      "Layer card settings row no longer overflows when all four controls (Color, Shape, Opacity, Category) are visible",
+      "Removed duplicate Export annotated PDF button from Layers panel — use the Export menu instead"
+    ]
   }
 }
