@@ -1,16 +1,13 @@
 {
-  "version": "1.0.17",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.17/McKimCreedTakeoff-Setup-1.0.17.exe",
+  "version": "1.0.18",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.18/McKimCreedTakeoff-Setup-1.0.18.exe",
   "published": "2026-06-29",
-  "notes": "Export improvements and UI polish",
+  "notes": "Bug fix: deleting saved takeoffs",
   "highlights": {
-    "features": [
-      "Floor-grouped BOM export — assign sheets to named floors with multipliers; assembly rows are multiplied, panels/units/fire pads in a separate non-multiplied section",
-      "Unified Excel / CSV export modal — pick format and grouping (whole document / per sheet / by floor) in one place; sheet names and floor multipliers editable right in the modal"
-    ],
+    "features": [],
     "fixes": [
-      "Layer card settings row no longer overflows when all four controls (Color, Shape, Opacity, Category) are visible",
-      "Removed duplicate Export annotated PDF button from Layers panel — use the Export menu instead"
+      "Deleting a saved takeoff from File > Open Project now works for every takeoff, including ones saved under a custom filename via Save As — the X button previously did nothing for those",
+      "Saved Takeoffs list now shows each takeoff by its actual file, so duplicates with the same name are distinguishable and re-saving no longer creates a stray duplicate file"
     ]
   }
 }
