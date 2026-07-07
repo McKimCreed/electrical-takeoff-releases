@@ -1,13 +1,16 @@
 {
-  "version": "1.0.18",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.18/McKimCreedTakeoff-Setup-1.0.18.exe",
-  "published": "2026-06-29",
-  "notes": "Bug fix: deleting saved takeoffs",
+  "version": "1.0.19",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.19/McKimCreedTakeoff-Setup-1.0.19.exe",
+  "published": "2026-07-07",
+  "notes": "By-unit-type takeoff export and manual area takeoff.",
   "highlights": {
-    "features": [],
+    "features": [
+      "By-unit-type Excel/CSV export (device counts per unit-type qty)",
+      "Manual area takeoff - Fill/Draw rooms with square footage",
+      "pdf.js rendering engine"
+    ],
     "fixes": [
-      "Deleting a saved takeoff from File > Open Project now works for every takeoff, including ones saved under a custom filename via Save As — the X button previously did nothing for those",
-      "Saved Takeoffs list now shows each takeoff by its actual file, so duplicates with the same name are distinguishable and re-saving no longer creates a stray duplicate file"
+      "Export polish for by-floor and by-unit-type"
     ]
   }
 }
