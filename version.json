@@ -1,16 +1,15 @@
 {
-  "version": "1.0.19",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.19/McKimCreedTakeoff-Setup-1.0.19.exe",
-  "published": "2026-07-07",
-  "notes": "By-unit-type takeoff export and manual area takeoff.",
+  "version": "1.0.20",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.20/McKimCreedTakeoff-Setup-1.0.20.exe",
+  "published": "2026-07-08",
+  "notes": "Export-time unit type assignment",
   "highlights": {
     "features": [
-      "By-unit-type Excel/CSV export (device counts per unit-type qty)",
-      "Manual area takeoff - Fill/Draw rooms with square footage",
-      "pdf.js rendering engine"
+      "By-unit-type export: assign layers to unit types in the export dialog (many-to-many)",
+      "Export modal widened; unit type panel removed from sidebar"
     ],
     "fixes": [
-      "Export polish for by-floor and by-unit-type"
+      "Dropdown closes on click-outside; type names no longer wrap in dropdown"
     ]
   }
 }
