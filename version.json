@@ -1,15 +1,17 @@
 {
-  "version": "1.0.20",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.20/McKimCreedTakeoff-Setup-1.0.20.exe",
-  "published": "2026-07-08",
-  "notes": "Export-time unit type assignment",
+  "version": "1.0.21",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.21/McKimCreedTakeoff-Setup-1.0.21.exe",
+  "published": "2026-07-09",
+  "notes": "Unit-type takeoff by drawn regions",
   "highlights": {
     "features": [
-      "By-unit-type export: assign layers to unit types in the export dialog (many-to-many)",
-      "Export modal widened; unit type panel removed from sidebar"
+      "Draw unit regions on the plan (from the export dialog) — device marks inside each polygon are counted toward that unit type",
+      "Collapsible 'Unit types & regions' section with per-device breakdown",
+      "Reassign a drawn region to another unit type"
     ],
     "fixes": [
-      "Dropdown closes on click-outside; type names no longer wrap in dropdown"
+      "Renaming/removing a unit type no longer orphans its regions",
+      "Region polygons only show while editing regions, not in normal view"
     ]
   }
 }
