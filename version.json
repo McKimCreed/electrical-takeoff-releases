@@ -1,17 +1,25 @@
 {
-  "version": "1.0.21",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.21/McKimCreedTakeoff-Setup-1.0.21.exe",
-  "published": "2026-07-09",
-  "notes": "Unit-type takeoff by drawn regions",
+  "version": "1.0.22",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.22/McKimCreedTakeoff-Setup-1.0.22.exe",
+  "published": "2026-07-15",
+  "notes": "Rotation, legend, and unit-type/region export fixes; UI polish",
   "highlights": {
     "features": [
-      "Draw unit regions on the plan (from the export dialog) — device marks inside each polygon are counted toward that unit type",
-      "Collapsible 'Unit types & regions' section with per-device breakdown",
-      "Reassign a drawn region to another unit type"
+      "Resizable sidebar so layer names aren't truncated",
+      "Flash a layer's marks on the drawing to locate it (auto-scrolls to the right page)",
+      "Directional (8 angles) detection on by default",
+      "Select-all option in the unit-type assign dropdown",
+      "Sheet-name suggestions dropdown in exports",
+      "Collapsible Sheet Names / Assign Layers sections in the export dialog"
     ],
     "fixes": [
-      "Renaming/removing a unit type no longer orphans its regions",
-      "Region polygons only show while editing regions, not in normal view"
+      "Exported symbol marks and room polygons no longer rotate 90/180/270deg on rotated sheets",
+      "Exported legend no longer rotates or goes missing on some pages",
+      "Renaming a unit type to another type's name no longer merges their layers",
+      "Removing a unit type no longer silently deletes its drawn regions; orphaned regions now show up to reassign or delete",
+      "Region-based unit-type counts no longer silently dropped from the export when a type was renamed/removed",
+      "3-digit layer quantities no longer get cropped",
+      "Assign-layers list no longer disappears with zero unit types or once a region is drawn"
     ]
   }
 }
