@@ -1,19 +1,13 @@
 {
-  "version": "1.0.23",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.23/McKimCreedTakeoff-Setup-1.0.23.exe",
-  "published": "2026-07-31",
-  "notes": "Faster canvas on large takeoffs, plus mark duplication and clearer layer tools.",
+  "version": "1.0.24",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.24/McKimCreedTakeoff-Setup-1.0.24.exe",
+  "published": "2026-08-03",
+  "notes": "PDF export is now seconds instead of minutes on large takeoffs.",
   "highlights": {
-    "features": [
-      "Ctrl+drag a mark to duplicate it and place the copy",
-      "Add to layer: draw another layer mark beside the selected marks at small/same/large size",
-      "Highlight now blinks until clicked again instead of stopping after a few seconds",
-      "New layers never reuse a colour already in use"
-    ],
+    "features": [],
     "fixes": [
-      "Much faster panning and zooming on takeoffs with thousands of marks",
-      "Selection action box no longer grows unusably long when a job has dozens of layers",
-      "Dragging a mark can no longer leave the drawing out of sync with the counted data"
+      "PDF export is dramatically faster on large takeoffs - a job with thousands of marks now exports in seconds instead of minutes",
+      "The small size for Add-to-layer marks is now 30% instead of 60%, so it reads as clearly smaller"
     ]
   }
 }
