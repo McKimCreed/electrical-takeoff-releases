@@ -1,15 +1,15 @@
 {
-  "version": "1.0.28",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.28/McKimCreedTakeoff-Setup-1.0.28.exe",
+  "version": "1.0.29",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.29/McKimCreedTakeoff-Setup-1.0.29.exe",
   "published": "2026-08-05",
-  "notes": "Faster tab switching, tabs keep their zoom and position, and you can pick which sheet layers paste onto.",
+  "notes": "Layer files with a pick-list, paste onto a sheet or range, and tabs keep their zoom and position.",
   "highlights": {
     "features": [
-      "Paste layers onto a sheet you choose: there's an 'onto sheet' box beside Paste. Leave it blank to keep the sheet numbers the marks came from. Useful when the matching plan is a different sheet number in each building."
+      "Export layers to a file and import them into another takeoff: Export > Layers to file / Layers from file. A picker lets you tick exactly which layers go in the file.",
+      "Paste layers onto a sheet you choose - the 'onto sheet' box beside Paste takes 5, or a range like 4-8, or 2,4-6. Several sheets repeat the marks on each. Blank keeps the sheet numbers the marks came from."
     ],
     "fixes": [
-      "Switching between takeoff tabs no longer redraws the PDF every time - rendered sheets are kept and reused.",
-      "Each tab now keeps its own zoom, pan and scroll position instead of resetting to fit-width when you switch."
+      "Each takeoff tab now keeps its own zoom, pan and scroll position instead of resetting when you switch."
     ]
   }
 }
