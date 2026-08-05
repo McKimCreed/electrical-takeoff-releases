@@ -1,15 +1,12 @@
 {
-  "version": "1.0.25",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.25/McKimCreedTakeoff-Setup-1.0.25.exe",
+  "version": "1.0.26",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.26/McKimCreedTakeoff-Setup-1.0.26.exe",
   "published": "2026-08-04",
-  "notes": "Several takeoffs open at once, and copy/paste layers between them.",
+  "notes": "Important fix for copying layers between takeoffs - please update if you use that.",
   "highlights": {
-    "features": [
-      "Work on several takeoffs at once - File > New takeoff tab, then click a tab to switch",
-      "Copy whole layers between takeoffs: tick layers in the Layers tab, Copy to project, then Paste in the other takeoff",
-      "Copy a lasso selection between takeoffs with 'To project'",
-      "Pasted marks are rescaled to the target sheet size, and layers keep their names, colours and shapes across buildings"
-    ],
-    "fixes": []
+    "features": [],
+    "fixes": [
+      "Copying layers between takeoffs could place the marks in the wrong spot, without warning, if you pasted before the sheets had finished drawing. Fixed - and the copy/paste buttons now wait until the sheets are ready."
+    ]
   }
 }
