@@ -1,15 +1,13 @@
 {
-  "version": "1.0.29",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.29/McKimCreedTakeoff-Setup-1.0.29.exe",
+  "version": "1.0.30",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.30/McKimCreedTakeoff-Setup-1.0.30.exe",
   "published": "2026-08-05",
-  "notes": "Layer files with a pick-list, paste onto a sheet or range, and tabs keep their zoom and position.",
+  "notes": "Rotate or mirror a set of marks and get a copy - for wings and opposite-hand units.",
   "highlights": {
     "features": [
-      "Export layers to a file and import them into another takeoff: Export > Layers to file / Layers from file. A picker lets you tick exactly which layers go in the file.",
-      "Paste layers onto a sheet you choose - the 'onto sheet' box beside Paste takes 5, or a range like 4-8, or 2,4-6. Several sheets repeat the marks on each. Blank keeps the sheet numbers the marks came from."
+      "Rotate or mirror marks into a copy: tick layers (or lasso marks) and use the new arrow buttons - mirror left-right, mirror top-bottom, rotate 90 either way, or 180. The originals stay put and the copy is added, for a wing or opposite-hand unit that repeats the same devices flipped.",
+      "A transform of 200 marks or more asks first and tells you the before/after total, so a whole job can't be doubled by a stray click."
     ],
-    "fixes": [
-      "Each takeoff tab now keeps its own zoom, pan and scroll position instead of resetting when you switch."
-    ]
+    "fixes": []
   }
 }
