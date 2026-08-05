@@ -1,12 +1,14 @@
 {
-  "version": "1.0.26",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.26/McKimCreedTakeoff-Setup-1.0.26.exe",
-  "published": "2026-08-04",
-  "notes": "Important fix for copying layers between takeoffs - please update if you use that.",
+  "version": "1.0.27",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.27/McKimCreedTakeoff-Setup-1.0.27.exe",
+  "published": "2026-08-05",
+  "notes": "Switching takeoff tabs is faster and no longer carries layer selections across. Please update.",
   "highlights": {
     "features": [],
     "fixes": [
-      "Copying layers between takeoffs could place the marks in the wrong spot, without warning, if you pasted before the sheets had finished drawing. Fixed - and the copy/paste buttons now wait until the sheets are ready."
+      "Layers ticked in one takeoff no longer show as ticked in another after switching tabs. This mattered: the ticks are positional, so Delete or Copy-to-project could act on the wrong layers.",
+      "Switching between takeoff tabs no longer redraws the PDF every time - rendered sheets are kept and reused.",
+      "A tab holding layers but no PDF no longer describes itself as empty."
     ]
   }
 }
