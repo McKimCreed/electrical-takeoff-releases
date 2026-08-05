@@ -1,13 +1,15 @@
 {
-  "version": "1.0.24",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.24/McKimCreedTakeoff-Setup-1.0.24.exe",
-  "published": "2026-08-03",
-  "notes": "PDF export is now seconds instead of minutes on large takeoffs.",
+  "version": "1.0.25",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.25/McKimCreedTakeoff-Setup-1.0.25.exe",
+  "published": "2026-08-04",
+  "notes": "Several takeoffs open at once, and copy/paste layers between them.",
   "highlights": {
-    "features": [],
-    "fixes": [
-      "PDF export is dramatically faster on large takeoffs - a job with thousands of marks now exports in seconds instead of minutes",
-      "The small size for Add-to-layer marks is now 30% instead of 60%, so it reads as clearly smaller"
-    ]
+    "features": [
+      "Work on several takeoffs at once - File > New takeoff tab, then click a tab to switch",
+      "Copy whole layers between takeoffs: tick layers in the Layers tab, Copy to project, then Paste in the other takeoff",
+      "Copy a lasso selection between takeoffs with 'To project'",
+      "Pasted marks are rescaled to the target sheet size, and layers keep their names, colours and shapes across buildings"
+    ],
+    "fixes": []
   }
 }
