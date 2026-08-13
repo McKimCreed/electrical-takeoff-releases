@@ -1,13 +1,21 @@
 {
-  "version": "1.0.30",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.0.30/McKimCreedTakeoff-Setup-1.0.30.exe",
-  "published": "2026-08-05",
-  "notes": "Rotate or mirror a set of marks and get a copy - for wings and opposite-hand units.",
+  "version": "1.1.0",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.1.0/McKimCreedTakeoff-Setup-1.1.0.exe",
+  "published": "2026-08-12",
+  "notes": "Saving is now explicit: press Ctrl+S. The app no longer saves your takeoff in the background - the topbar tells you when something is unsaved.",
   "highlights": {
     "features": [
-      "Rotate or mirror marks into a copy: tick layers (or lasso marks) and use the new arrow buttons - mirror left-right, mirror top-bottom, rotate 90 either way, or 180. The originals stay put and the copy is added, for a wing or opposite-hand unit that repeats the same devices flipped.",
-      "A transform of 200 marks or more asks first and tells you the before/after total, so a whole job can't be doubled by a stray click."
+      "Saving is explicit: Ctrl+S, or click the save indicator",
+      "The topbar shows Saved / Unsaved changes / Not saved to a file, and only says Saved when your work is really on disk",
+      "Version history: every save keeps the state it replaced - File > Version history to reopen any of the last 20",
+      "Crash recovery: unsaved work is offered back next time you start the app",
+      "You are asked before anything discards work - new takeoff, loading another PDF, closing a tab or the app",
+      "Saving over a different takeoff, or one that changed since you opened it, stops and asks instead of overwriting"
     ],
-    "fixes": []
+    "fixes": [
+      "Saving a renamed or copied takeoff wrote a duplicate and left the file you opened untouched",
+      "A takeoff whose embedded PDF was corrupt could not be opened at all, even though its counts were intact",
+      "Saves could fail while antivirus or OneDrive briefly held the file"
+    ]
   }
 }
