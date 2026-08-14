@@ -1,21 +1,20 @@
 {
-  "version": "1.1.0",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.1.0/McKimCreedTakeoff-Setup-1.1.0.exe",
-  "published": "2026-08-12",
-  "notes": "Saving is now explicit: press Ctrl+S. The app no longer saves your takeoff in the background - the topbar tells you when something is unsaved.",
+  "version": "1.2.0",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.2.0/McKimCreedTakeoff-Setup-1.2.0.exe",
+  "published": "2026-08-14",
+  "notes": "AI Find works on large drawing sets again, and shows progress while Engineer Monkey prepares the sheets. New: Find Text builds a layer from circuit numbers, layers can be merged, and a find no longer offers symbols another layer already counts.",
   "highlights": {
     "features": [
-      "Saving is explicit: Ctrl+S, or click the save indicator",
-      "The topbar shows Saved / Unsaved changes / Not saved to a file, and only says Saved when your work is really on disk",
-      "Version history: every save keeps the state it replaced - File > Version history to reopen any of the last 20",
-      "Crash recovery: unsaved work is offered back next time you start the app",
-      "You are asked before anything discards work - new takeoff, loading another PDF, closing a tab or the app",
-      "Saving over a different takeoff, or one that changed since you opened it, stops and asks instead of overwriting"
+      "Find Text: search the drawing's text - a circuit number, a tag - and turn every hit into a layer (Detect > Find Text)",
+      "Merge layers: select two or more layers and fold them into one, without double-counting marks they share",
+      "A find no longer re-offers symbols an existing layer already counts, so re-running Find, or running Find then AI Find, cannot double-count",
+      "AI Find now shows Engineer Monkey's progress while it prepares a drawing set, instead of sitting on one label"
     ],
     "fixes": [
-      "Saving a renamed or copied takeoff wrote a duplicate and left the file you opened untouched",
-      "A takeoff whose embedded PDF was corrupt could not be opened at all, even though its counts were intact",
-      "Saves could fail while antivirus or OneDrive briefly held the file"
+      "AI Find no longer fails with 'did not finish rendering in time' on large drawing sets",
+      "A drawing set is prepared once instead of re-rendering on every AI Find and after every app launch",
+      "A preparation that times out is resumed rather than started over, and cannot hang twice as long as it used to",
+      "Filtering a dense takeoff no longer stalls the interface for several seconds"
     ]
   }
 }
