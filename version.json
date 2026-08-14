@@ -1,20 +1,16 @@
 {
-  "version": "1.2.0",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.2.0/McKimCreedTakeoff-Setup-1.2.0.exe",
+  "version": "1.2.1",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.2.1/McKimCreedTakeoff-Setup-1.2.1.exe",
   "published": "2026-08-14",
-  "notes": "AI Find works on large drawing sets again, and shows progress while Engineer Monkey prepares the sheets. New: Find Text builds a layer from circuit numbers, layers can be merged, and a find no longer offers symbols another layer already counts.",
+  "notes": "Find Text now shows you where the hits are: every match is highlighted on the sheets, the view jumps to the first one, and you can click a hit off the drawing before turning the rest into a layer.",
   "highlights": {
     "features": [
-      "Find Text: search the drawing's text - a circuit number, a tag - and turn every hit into a layer (Detect > Find Text)",
-      "Merge layers: select two or more layers and fold them into one, without double-counting marks they share",
-      "A find no longer re-offers symbols an existing layer already counts, so re-running Find, or running Find then AI Find, cannot double-count",
-      "AI Find now shows Engineer Monkey's progress while it prepares a drawing set, instead of sitting on one label"
+      "Find Text now highlights every hit on the drawing, and the page header shows its hit count",
+      "Click a highlighted hit to drop it before adding the layer - useful for a panel-schedule row that is not a device",
+      "Searching jumps to the first sheet with a hit, so the highlight is where you are looking"
     ],
     "fixes": [
-      "AI Find no longer fails with 'did not finish rendering in time' on large drawing sets",
-      "A drawing set is prepared once instead of re-rendering on every AI Find and after every app launch",
-      "A preparation that times out is resumed rather than started over, and cannot hang twice as long as it used to",
-      "Filtering a dense takeoff no longer stalls the interface for several seconds"
+      "Find Text could report one fewer hit than the drawing contains when a mark from another layer sat near the label"
     ]
   }
 }
