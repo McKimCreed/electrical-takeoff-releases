@@ -1,16 +1,15 @@
 {
-  "version": "1.2.1",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.2.1/McKimCreedTakeoff-Setup-1.2.1.exe",
-  "published": "2026-08-14",
-  "notes": "Find Text now shows you where the hits are: every match is highlighted on the sheets, the view jumps to the first one, and you can click a hit off the drawing before turning the rest into a layer.",
+  "version": "1.2.2",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.2.2/McKimCreedTakeoff-Setup-1.2.2.exe",
+  "published": "2026-08-17",
+  "notes": "AI Find no longer re-places symbols that a layer already counts - it now recognises them the way Find All Instances does. Ctrl+F opens Find Text.",
   "highlights": {
     "features": [
-      "Find Text now highlights every hit on the drawing, and the page header shows its hit count",
-      "Click a highlighted hit to drop it before adding the layer - useful for a panel-schedule row that is not a device",
-      "Searching jumps to the first sheet with a hit, so the highlight is where you are looking"
+      "Ctrl+F opens Find Text from anywhere, with the cursor in the search box"
     ],
     "fixes": [
-      "Find Text could report one fewer hit than the drawing contains when a mark from another layer sat near the label"
+      "AI Find now skips symbols that are already placed in a layer, the way Find All Instances already did",
+      "Find Text no longer reports one fewer hit than the drawing contains"
     ]
   }
 }
