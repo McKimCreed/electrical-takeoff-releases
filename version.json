@@ -1,15 +1,15 @@
 {
-  "version": "1.2.2",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.2.2/McKimCreedTakeoff-Setup-1.2.2.exe",
-  "published": "2026-08-17",
-  "notes": "AI Find no longer re-places symbols that a layer already counts - it now recognises them the way Find All Instances does. Ctrl+F opens Find Text.",
+  "version": "1.2.3",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.2.3/McKimCreedTakeoff-Setup-1.2.3.exe",
+  "published": "2026-08-20",
+  "notes": "Every annotated PDF export now opens with the McKim & Creed Terms and Conditions of Use as its first page.",
   "highlights": {
     "features": [
-      "Ctrl+F opens Find Text from anywhere, with the cursor in the search box"
+      "Exported PDFs open with the Terms and Conditions of Use page - added automatically, so the drawing sheets start on page 2",
+      "Quick start guide documents the new terms page under Exporting Results"
     ],
     "fixes": [
-      "AI Find now skips symbols that are already placed in a layer, the way Find All Instances already did",
-      "Find Text no longer reports one fewer hit than the drawing contains"
+      "Help guide brought in line with the app: no autosave, the correct save indicator states, and the AI Find first-run cost"
     ]
   }
 }
