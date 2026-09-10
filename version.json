@@ -1,15 +1,19 @@
 {
-  "version": "1.2.3",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.2.3/McKimCreedTakeoff-Setup-1.2.3.exe",
-  "published": "2026-08-20",
-  "notes": "Every annotated PDF export now opens with the McKim & Creed Terms and Conditions of Use as its first page.",
+  "version": "1.2.4",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.2.4/McKimCreedTakeoff-Setup-1.2.4.exe",
+  "published": "2026-09-10",
+  "notes": "AI Find now works from a normal fit-to-page view, and the grey architectural background is no longer counted as symbols.",
   "highlights": {
     "features": [
-      "Exported PDFs open with the Terms and Conditions of Use page - added automatically, so the drawing sheets start on page 2",
-      "Quick start guide documents the new terms page under Exporting Results"
+      "MA: move the selected marks to the layer of the mark you click next",
+      "AI Find now shows what it rejected - click a gray box to restore it",
+      "Match nearby labels is now a Parameters setting, so a shape can be matched across different tags"
     ],
     "fixes": [
-      "Help guide brought in line with the app: no autosave, the correct save indicator states, and the AI Find first-run cost"
+      "AI Find works from a fit-to-page view - 0 hits became 54 on a real drawing set",
+      "A picked symbol no longer carries the wire attached to it, which had been cutting AI Find down to a single hit",
+      "Local Find no longer counts the grey architectural background as symbols - 294 hits became 56 on one sheet",
+      "The experimental AI Legend tool is hidden again; it had been shipping by mistake"
     ]
   }
 }
