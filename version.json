@@ -1,19 +1,18 @@
 {
-  "version": "1.2.4",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.2.4/McKimCreedTakeoff-Setup-1.2.4.exe",
-  "published": "2026-09-10",
-  "notes": "AI Find now works from a normal fit-to-page view, and the grey architectural background is no longer counted as symbols.",
+  "version": "1.3.0",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.3.0/McKimCreedTakeoff-Setup-1.3.0.exe",
+  "published": "2026-09-16",
+  "notes": "Markup tools, much faster PDF loading, and fixes to AI Find duplicates and layer merging.",
   "highlights": {
     "features": [
-      "MA: move the selected marks to the layer of the mark you click next",
-      "AI Find now shows what it rejected - click a gray box to restore it",
-      "Match nearby labels is now a Parameters setting, so a shape can be matched across different tags"
+      "Markups: pen, line, arrow, polyline, shapes, revision cloud, highlight, text, callout and pinned notes, in a panel of their own. Ctrl+Z undoes markups and layer edits alike.",
+      "Export markups either flattened into the sheet or as editable PDF annotations that open in Bluebeam with their author and date."
     ],
     "fixes": [
-      "AI Find works from a fit-to-page view - 0 hits became 54 on a real drawing set",
-      "A picked symbol no longer carries the wire attached to it, which had been cutting AI Find down to a single hit",
-      "Local Find no longer counts the grey architectural background as symbols - 294 hits became 56 on one sheet",
-      "The experimental AI Legend tool is hidden again; it had been shipping by mistake"
+      "Large PDF sets open in seconds instead of minutes. The remaining sheets draw in the background, nearest to what you are looking at first.",
+      "AI Find no longer stacks several boxes on the same symbol.",
+      "Merging two layers redraws the incoming marks at the destination layer mark size, so the merged layer looks like one layer.",
+      "Selection panel buttons no longer paint outside their box."
     ]
   }
 }
