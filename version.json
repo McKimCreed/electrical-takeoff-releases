@@ -1,18 +1,14 @@
 {
-  "version": "1.3.0",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.3.0/McKimCreedTakeoff-Setup-1.3.0.exe",
-  "published": "2026-09-16",
-  "notes": "Markup tools, much faster PDF loading, and fixes to AI Find duplicates and layer merging.",
+  "version": "1.3.1",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.3.1/McKimCreedTakeoff-Setup-1.3.1.exe",
+  "published": "2026-09-17",
+  "notes": "Straight line and arrow markup tools, and moving a mark to another layer now matches it to that layer.",
   "highlights": {
-    "features": [
-      "Markups: pen, line, arrow, polyline, shapes, revision cloud, highlight, text, callout and pinned notes, in a panel of their own. Ctrl+Z undoes markups and layer edits alike.",
-      "Export markups either flattened into the sheet or as editable PDF annotations that open in Bluebeam with their author and date."
-    ],
+    "features": [],
     "fixes": [
-      "Large PDF sets open in seconds instead of minutes. The remaining sheets draw in the background, nearest to what you are looking at first.",
-      "AI Find no longer stacks several boxes on the same symbol.",
-      "Merging two layers redraws the incoming marks at the destination layer mark size, so the merged layer looks like one layer.",
-      "Selection panel buttons no longer paint outside their box."
+      "The line and arrow draw tools now draw straight lines. Both were tracing the pointer like the pen, so line drew a freehand squiggle and arrow drew the same squiggle with an arrowhead.",
+      "Moving a mark to another layer now redraws it at that layer mark size, the same way merging two layers does.",
+      "Moving a mark between layers measured at different zooms now places it correctly on the sheet. It was being copied across without rescaling."
     ]
   }
 }
