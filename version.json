@@ -1,14 +1,12 @@
 {
-  "version": "1.3.1",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.3.1/McKimCreedTakeoff-Setup-1.3.1.exe",
-  "published": "2026-09-17",
-  "notes": "Straight line and arrow markup tools, and moving a mark to another layer now matches it to that layer.",
+  "version": "1.4.0",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.4.0/McKimCreedTakeoff-Setup-1.4.0.exe",
+  "published": "2026-09-18",
+  "notes": "Copy marks from an enlarged plan onto an overall plan drawn at a different scale.",
   "highlights": {
-    "features": [],
-    "fixes": [
-      "The line and arrow draw tools now draw straight lines. Both were tracing the pointer like the pen, so line drew a freehand squiggle and arrow drew the same squiggle with an arrowhead.",
-      "Moving a mark to another layer now redraws it at that layer mark size, the same way merging two layers does.",
-      "Moving a mark between layers measured at different zooms now places it correctly on the sheet. It was being copied across without rescaling."
-    ]
+    "features": [
+      "Scale to sheet: select marks on a plan at one drawing scale and copy them onto a sheet at another, for example from a 1/4 inch enlarged plan to the 3/16 inch overall plan. Pick the two scales while the marks are on the drawing, watch them resize, then drag them into position and place. The spacing between marks scales with them, so a run of devices stays in the right rooms. Nothing has to be calibrated in advance."
+    ],
+    "fixes": []
   }
 }
