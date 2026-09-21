@@ -1,12 +1,16 @@
 {
-  "version": "1.4.0",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.4.0/McKimCreedTakeoff-Setup-1.4.0.exe",
-  "published": "2026-09-18",
-  "notes": "Copy marks from an enlarged plan onto an overall plan drawn at a different scale.",
+  "version": "1.5.0",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.5.0/McKimCreedTakeoff-Setup-1.5.0.exe",
+  "published": "2026-09-21",
+  "notes": "Select picks the right symbol far more often and is much faster on retries. Layers can be dragged to reorder, or sorted A-Z.",
   "highlights": {
     "features": [
-      "Scale to sheet: select marks on a plan at one drawing scale and copy them onto a sheet at another, for example from a 1/4 inch enlarged plan to the 3/16 inch overall plan. Pick the two scales while the marks are on the drawing, watch them resize, then drag them into position and place. The spacing between marks scales with them, so a run of devices stays in the right rooms. Nothing has to be calibrated in advance."
+      "Drag a layer by the grip on the left of its row to reorder it, instead of clicking the up and down arrows one step at a time. The arrows still work.",
+      "A new A-Z button sorts every layer by name. It is a shortcut, not a mode, so you can drag layers afterwards or press Ctrl+Z to get your own order back. Names ending in numbers sort the way you would expect, so Fixture 2 comes before Fixture 10."
     ],
-    "fixes": []
+    "fixes": [
+      "Select now picks the symbol under your drag instead of sometimes taking the device next to it. Measured on a live job: with a drag half again the size of the symbol, results more than four times too large are gone, and repeated picks of the same symbol agree with each other far more closely.",
+      "Select is much faster when a pick takes more than one attempt. Each sheet's geometry is now read once instead of on every pick: the first pick on a sheet still takes about a second and a half, every retry after it is instant."
+    ]
   }
 }
