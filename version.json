@@ -1,16 +1,14 @@
 {
-  "version": "1.5.0",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.5.0/McKimCreedTakeoff-Setup-1.5.0.exe",
-  "published": "2026-09-21",
-  "notes": "Select picks the right symbol far more often and is much faster on retries. Layers can be dragged to reorder, or sorted A-Z.",
+  "version": "1.5.1",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.5.1/McKimCreedTakeoff-Setup-1.5.1.exe",
+  "published": "2026-10-15",
+  "notes": "Faster Find All Instances, a page range for Find Text, and a selection fix for symbols drawn with straight lines.",
   "highlights": {
     "features": [
-      "Drag a layer by the grip on the left of its row to reorder it, instead of clicking the up and down arrows one step at a time. The arrows still work.",
-      "A new A-Z button sorts every layer by name. It is a shortcut, not a mode, so you can drag layers afterwards or press Ctrl+Z to get your own order back. Names ending in numbers sort the way you would expect, so Fixture 2 comes before Fixture 10."
+      "Find All Instances is faster, and Find Text can search just the pages you choose"
     ],
     "fixes": [
-      "Select now picks the symbol under your drag instead of sometimes taking the device next to it. Measured on a live job: with a drag half again the size of the symbol, results more than four times too large are gone, and repeated picks of the same symbol agree with each other far more closely.",
-      "Select is much faster when a pick takes more than one attempt. Each sheet's geometry is now read once instead of on every pick: the first pick on a sheet still takes about a second and a half, every retry after it is instant."
+      "Selecting a symbol now keeps the lines that run through it, such as the bars on a circle symbol"
     ]
   }
 }
