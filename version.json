@@ -1,14 +1,12 @@
 {
-  "version": "1.5.1",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.5.1/McKimCreedTakeoff-Setup-1.5.1.exe",
-  "published": "2026-10-15",
-  "notes": "Faster Find All Instances, a page range for Find Text, and a selection fix for symbols drawn with straight lines.",
+  "version": "1.5.2",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.5.2/McKimCreedTakeoff-Setup-1.5.2.exe",
+  "published": "2026-11-11",
+  "notes": "Resizing one highlight now resizes every highlight in its layer",
   "highlights": {
     "features": [
-      "Find All Instances is faster, and Find Text can search just the pages you choose"
+      "Resize one box and every box in the layer matches its size, kept centred on its own spot"
     ],
-    "fixes": [
-      "Selecting a symbol now keeps the lines that run through it, such as the bars on a circle symbol"
-    ]
+    "fixes": []
   }
 }
