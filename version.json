@@ -1,12 +1,10 @@
 {
-  "version": "1.5.2",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.5.2/McKimCreedTakeoff-Setup-1.5.2.exe",
-  "published": "2026-11-11",
-  "notes": "Resizing one highlight now resizes every highlight in its layer",
+  "version": "1.6.0",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.6.0/McKimCreedTakeoff-Setup-1.6.0.exe",
+  "published": "2026-11-12",
+  "notes": "Remove a sheet from a takeoff (x on the sheet header), and insert a missed PDF's sheets into the same takeoff (File > Insert PDF sheets...).",
   "highlights": {
-    "features": [
-      "Resize one box and every box in the layer matches its size, kept centred on its own spot"
-    ],
+    "features": [],
     "fixes": []
   }
 }
