@@ -1,8 +1,8 @@
 {
-  "version": "1.6.0",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.6.0/McKimCreedTakeoff-Setup-1.6.0.exe",
+  "version": "1.7.0",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.7.0/McKimCreedTakeoff-Setup-1.7.0.exe",
   "published": "2026-11-12",
-  "notes": "Remove a sheet from a takeoff (x on the sheet header), and insert a missed PDF's sheets into the same takeoff (File > Insert PDF sheets...).",
+  "notes": "Export Excel/CSV with some sheets by unit type and the rest by floor, in one file with a Summary tab. Multipliers are now live in the exported Excel. Reorder sheets from the new Sheets tab. Find Text no longer doubles up labels drawn twice in the PDF.",
   "highlights": {
     "features": [],
     "fixes": []
