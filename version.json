@@ -1,10 +1,12 @@
 {
-  "version": "1.7.0",
-  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.7.0/McKimCreedTakeoff-Setup-1.7.0.exe",
-  "published": "2026-11-12",
-  "notes": "Export Excel/CSV with some sheets by unit type and the rest by floor, in one file with a Summary tab. Multipliers are now live in the exported Excel. Reorder sheets from the new Sheets tab. Find Text no longer doubles up labels drawn twice in the PDF.",
+  "version": "1.7.1",
+  "installer_url": "https://github.com/McKimCreed/electrical-takeoff-releases/releases/download/v1.7.1/McKimCreedTakeoff-Setup-1.7.1.exe",
+  "published": "2026-11-17",
+  "notes": "Large drawing sets no longer slow down or run out of memory",
   "highlights": {
     "features": [],
-    "fixes": []
+    "fixes": [
+      "Fixed the app becoming slow and using 10+ GB of memory on very large drawing sets,Smoother scrolling while sheets are loading"
+    ]
   }
 }
